@@ -1,3 +1,4 @@
+
 <!--
     Licensed to the Apache Software Foundation (ASF) under one
     or more contributor license agreements.  See the NOTICE file
@@ -289,3 +290,6 @@ helm install my-superset superset/superset
 | supersetWorker.topologySpreadConstraints | list | `[]` | TopologySpreadConstrains to be added to supersetWorker deployments |
 | tolerations | list | `[]` |  |
 | topologySpreadConstraints | list | `[]` | TopologySpreadConstrains to be added to all deployments |
+=======
+
+
