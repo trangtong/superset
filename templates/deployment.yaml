@@ -37,6 +37,7 @@ spec:
   {{- if not .Values.supersetNode.autoscaling.enabled }}
   replicas: {{ .Values.supersetNode.replicaCount }}
   {{- end }}
+  revisionHistoryLimit: 1
   {{- if .Values.supersetNode.strategy }}
   strategy: {{- toYaml .Values.supersetNode.strategy | nindent 4 }}
   {{- end }}
