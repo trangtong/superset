@@ -258,7 +258,7 @@ hostAliases: []
 
 # Superset node configuration
 supersetNode:
-  replicaCount: 2
+  replicaCount: 1
   autoscaling:
     enabled: false
     minReplicas: 1
